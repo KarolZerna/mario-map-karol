@@ -1,36 +1,36 @@
-# mario-map-karol
+## Mario Map
 
-Problem-Solver Agent
+# Problem-Solver Agent
 
-Formulación del objetivo: Encontrar la tubería más cercana para que Mario vuelva al mundo y rescate a la princesa.
+# Formulación del objetivo: 
+Encontrar la tubería más cercana para que Mario vuelva al mundo y rescate a la princesa.
 
-Formulación del problema: Los muros son altos y no puede saltar sobre ellos
+# Formulación del problema:
+Los muros son altos y no puede saltar sobre ellos
 
-Estado inicial
+# Estado inicial
 Figura 1. Mapa de Mario
 
-Estado objetivo
+# Estado objetivo
 Llegar a la tubería más cercana
 
-Test del objetivo
+# Test del objetivo
 	Está Mario cerca de una tubería o de un muro??
 
-Acciones
+# Acciones
 	MOVE DOWN
 	MOVE UP
 	MOVE LEFT
 	MOVE RIGHT
 
-Función de transición
+# Función de transición
 TRANSITION(MARIO, MOVE DOWN)
 
-Costo
+# Costo
 1 cada casilla
 
-Buscar, solucionar y ejecutar
-BFS,DFS o ID?
-BFS
+# Buscar, solucionar y ejecutar
+BFS ya que garantiza encontrar la solución óptima
 
-
-Cómo funcionará mi algoritmo?? Cómo resolverá el problema??
+# Cómo funcionará mi algoritmo?? Cómo resolverá el problema??
 
