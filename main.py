@@ -9,7 +9,6 @@ def main():
                     [0, 0, 0, 3],
                     [0, 3, 0, 3],
                     [2, 3, 0, 0]])
-
     settings = Settings()
     agent = Agent(settings)
     world = World(map, settings, agent)
