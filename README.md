@@ -9,7 +9,7 @@ Encontrar la tubería más cercana para que Mario vuelva al mundo y rescate a la
 Los muros son altos y no puede saltar sobre ellos
 
 ### Estado inicial
-!(https://raw.githubusercontent.com/joangerard/mario-map-karol/blob/master/mapaMario.png)
+![mapaMario](https://user-images.githubusercontent.com/65570079/111385759-a447bc80-8681-11eb-951d-e4ae0044780a.png)
 
 Mapa de Mario
 
