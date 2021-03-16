@@ -10,7 +10,7 @@ Los muros son altos y no puede saltar sobre ellos
 
 ### Estado inicial
 
-!(https://raw.githubusercontent.com/KarolZerna/mario-map-karol/master/mapaMario.png)
+!(https://github.com/joangerard/mario-map-karol/blob/master/mapaMario.png)
 
 Mapa de Mario
 
