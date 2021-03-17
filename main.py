@@ -13,9 +13,13 @@ def main():
     agent = Agent(settings)
     world = World(map, settings, agent)
 
-    path = World.travel_path_bfs (world, (0,0))
-
+    print("\n Wall-> 1 - Pipe-> 2")
     print("\n Initial map: \n",world.map)
+    
+    # Mario position in map
+    mario_pos = (0,0)  
+
+    path = World.travel_path_bfs (world, mario_pos)
 
     print("\n Number of squares to the nearest pipe:",len(path))
     print("\n Path Mario must follow:", path)

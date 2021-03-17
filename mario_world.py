@@ -1,6 +1,5 @@
 import collections
 import queue
-#import Queue as queue
 
 class World:
     def __init__(self, map, settings, agent):
@@ -10,9 +9,9 @@ class World:
         (self.rows, self.columns) = self.map.shape
 
 
-    def travel_path_bfs(self, start):
-        queue = collections.deque([[start]]) 
-        seen = set([start])
+    def travel_path_bfs(self, mario_pos):
+        queue = collections.deque([[mario_pos]]) 
+        seen = set([mario_pos])
 
         while queue:
             path = queue.popleft()
