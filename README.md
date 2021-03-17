@@ -35,9 +35,9 @@
 	1 cada casilla hasta llegar a la tuberia
 
 ### Buscar, solucionar y ejecutar
-	En este caso la mejor solución es usar BFS ya que con DFS si tendriamos 4 casillas vacías formando un cuadrado no funcionaría de manera óptima, BFS garantiza encontrar la solución óptima y el costo de la solución es mínino.
+En este caso la mejor solución es usar BFS ya que con DFS si tendriamos 4 casillas vacías formando un cuadrado no funcionaría de manera óptima, BFS garantiza encontrar la solución óptima y el costo de la solución es mínino.
 
 ### Cómo funcionará mi algoritmo?? Cómo resolverá el problema??
-	Resuelve el problema usando el algoritmo de BFS el cuál utiliza colas y creando un array para la posición de Mario vamos revisando si llega a una tuberia y con las acciones revisamos el camino por donde puede avanzar ya que hay muros que no puede saltar, si encontramos el camino libre para avanzar añadimos las posiciones a la cola y al array de Mario.
+Resuelve el problema usando el algoritmo de BFS el cuál utiliza colas y creando un array para la posición de Mario vamos revisando si llega a una tuberia y con las acciones revisamos el camino por donde puede avanzar ya que hay muros que no puede saltar, si encontramos el camino libre para avanzar añadimos las posiciones a la cola y al array de Mario.
 
 
