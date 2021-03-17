@@ -1,23 +1,20 @@
 import numpy as np
 from mario_world import World
 from settings import Settings
-from agent import Agent
 
 
 def main():
-    map = np.array([[1, 3, 0, 2],
-                    [0, 0, 0, 3],
-                    [0, 3, 0, 3],
-                    [2, 3, 0, 0]])
+    map = np.array([[0, 1, 0, 2],
+                    [0, 0, 0, 1],
+                    [0, 1, 0, 1],
+                    [2, 1, 0, 0]])
     settings = Settings()
-    agent = Agent(settings)
-    world = World(map, settings, agent)
+    world = World(map, settings)
 
-    number_boxes = world.number_of_box()
-
+    mapa = World.travel_path_bfs (world, (1,0))
     print(world.map)
-    print(number_boxes)
-
+    print(mapa)
+    print(len(mapa))
 
 if __name__ == "__main__":
     main()
