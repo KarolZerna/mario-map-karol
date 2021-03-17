@@ -1,6 +1,7 @@
 import numpy as np
 from mario_world import World
 from settings import Settings
+from agent import Agent
 
 
 def main():
@@ -9,12 +10,15 @@ def main():
                     [0, 1, 0, 1],
                     [2, 1, 0, 0]])
     settings = Settings()
-    world = World(map, settings)
+    agent = Agent(settings)
+    world = World(map, settings, agent)
 
-    mapa = World.travel_path_bfs (world, (1,0))
-    print(world.map)
-    print(mapa)
-    print(len(mapa))
+    path = World.travel_path_bfs (world, (0,0))
+
+    print("\n Initial map: \n",world.map)
+
+    print("\n Number of squares to the nearest pipe:",len(path))
+    print("\n Path Mario must follow:", path)
 
 if __name__ == "__main__":
     main()
