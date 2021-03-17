@@ -16,6 +16,7 @@ def main():
     print("\n Wall-> 1 - Pipe-> 2")
     print("\n Initial map: \n",world.map)
     
+    print("\n Mario position is: (0,0)")
     # Mario position in map
     mario_pos = (0,0)  
 
