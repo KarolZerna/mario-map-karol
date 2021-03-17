@@ -6,7 +6,7 @@ class Agent:
         successors = []
         for action in actions:
             if action == self.settings.UP:
-                successors.append([x + 1, y])
+                successors.append([x - 1, y])
             if action == self.settings.DOWN:
                 successors.append([x + 1, y])
             if action == self.settings.LEFT:
